@@ -1,4 +1,6 @@
 # python-circleci
+[![LDomadia](https://circleci.com/gh/LDomadia/python-circleci.svg?style=svg)](https://circleci.com/gh/Ldomadia/python-circleci)
+
 
 ### Step 1: Create new repo
 ### Step 2: Make a folder at the root of the repo called ".circleci"
