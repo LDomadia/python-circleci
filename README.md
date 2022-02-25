@@ -78,7 +78,7 @@ First commit and push these changes to GitHub. Then, navigate to the CircleCI we
 When you click on the job, you'll be able to go into further detail of the build, including if the test cases passed or failed. 
 <img width="1447" alt="Screen Shot 2022-02-25 at 1 48 35 PM" src="https://user-images.githubusercontent.com/62802533/155771071-f6b687c6-35a9-44b2-92d7-228c60536aae.png">
 
-### Step 7 (LAST STEP!) Adding the build badge to the README.md
+### Step 7 (LAST STEP!): Add the build badge to the README.md
 Finally, you can add the build badge to the repo to indicate whether CircleCI is currently passing or failing. Use this format and replace the **<GITHUB_USERNAME>** and **REPO_NAME** with your own information:
 
 ```
