@@ -1,0 +1,19 @@
+version: 2.1
+
+orbs:
+  python: circleci/python@3.10.0
+
+jobs:
+  build-and-test:
+    docker:
+      - image: cimg/python:3.10.2
+    steps:
+      - checkout
+      - run:
+        command: |
+          python3 -m unittest TestTriangle.py
+
+workflow:
+  sample:
+    jobs:
+      - build-and-test
