@@ -13,9 +13,9 @@ jobs:
           command: |
             python3 -m unittest TestTriangle.py
       - store_artifacts:
-          path: ~/test-results/results.xml
+          path: ./test-results/results.xml
       - store_test_results:
-          path: ~/test-results
+          path: ./test-results
 
 workflows:
   sample:
