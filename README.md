@@ -1,5 +1,5 @@
 # python-circleci
-[![LDomadia](https://circleci.com/gh/LDomadia/python-circleci.svg?style=svg)](https://circleci.com/gh/Ldomadia/python-circleci)
+[![LDomadia](https://circleci.com/gh/LDomadia/python-circleci.svg?style=svg)](https://app.circleci.com/pipelines/github/LDomadia/python-circleci?branch=main&filter=all)
 
 
 ### Step 1: Create new repo
