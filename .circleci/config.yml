@@ -11,8 +11,6 @@ jobs:
       - checkout
       - run: 
           command: |
-            pip install pytest
-            pytest TestTriangle.py
             . venv/bin/activate
             mkdir test-results
             pytest --junitxml=test-results/junit.xml tests
