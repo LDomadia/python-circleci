@@ -19,6 +19,6 @@ jobs:
           path: test-results/results.xml
 
 workflows:
-  sample:
+  testing_triangles:
     jobs:
       - build-and-test
