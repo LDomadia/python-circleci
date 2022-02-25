@@ -11,7 +11,7 @@ jobs:
       - checkout
       - run: 
           command: |
-            python3 -m unittest TestTriangle.py
+            pytest TestTriangle.py
       - store_test_results:
           path: ./test-results
       - store_artifacts:
