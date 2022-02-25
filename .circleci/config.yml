@@ -11,6 +11,7 @@ jobs:
       - checkout
       - run: 
           command: |
+            pip install pytest
             pytest TestTriangle.py
       - store_test_results:
           path: test-results
