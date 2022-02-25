@@ -7,7 +7,7 @@
     - add version number of circle ci => `version: 2.1`
     - add orb (this is the language you are using) 
         `orb:`
-            `python: circleci/python@3.8.0`
+            `python: circleci/python@2.0.1`
     - define a job (the workflow for the test; we'll call ours "build-and-test")
         `jobs:`
             `build-and-test:`
