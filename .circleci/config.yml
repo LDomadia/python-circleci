@@ -12,6 +12,8 @@ jobs:
       - run: 
           command: |
             python3 -m unittest TestTriangle.py
+      - store_test_results:
+          path: test-results
 
 workflows:
   sample:
