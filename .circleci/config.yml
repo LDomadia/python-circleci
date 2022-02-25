@@ -13,6 +13,9 @@ jobs:
           command: |
             pip install pytest
             pytest TestTriangle.py
+            . venv/bin/activate
+            mkdir test-results
+            pytest --junitxml=test-results/junit.xml tests
       - store_test_results:
           path: test-results
       - store_artifacts:
