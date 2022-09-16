@@ -19,7 +19,7 @@ The configuration file should be created at the root of the repo.
 1. Create a folder called ".circleci"
 2. Inside the folder, create a file called "config.yml"
 ### Step 4: Create test results directory
-When the build is finished running, the test results will be stored in this directory to be viewd on the CircleCI website
+When builds finished running, the test results will be stored in this directory to be viewd on the CircleCI website
 1. Create a folder called "test-results" at the root of the repo
 2. Inside the folder, create a file called "results.xml"
 ### Step 5: Edit config.yml file
