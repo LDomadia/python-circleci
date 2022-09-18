@@ -2,7 +2,7 @@
 [![LDomadia](https://circleci.com/gh/LDomadia/python-circleci.svg?style=svg)](https://app.circleci.com/pipelines/github/LDomadia/python-circleci?branch=main&filter=all)
 
 
-### Step 1: Create new repo
+### Step 1: Create new repo (or use an exisiting repo)
 ### Step 2: Set up CircleCI
 This can easily be done through GitHub
 1. On GitHub, click on the "Marketplace" tab on the top navigation
