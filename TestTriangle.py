@@ -16,7 +16,8 @@ from Triangle import classify_triangle
 
 class TestTriangles(unittest.TestCase):
     # your test cases here
-    print()
+    def test1(self):
+        self.assertEqual(1, 1)
 
 if __name__ == '__main__':
     print('Running unit tests')
