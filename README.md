@@ -66,7 +66,8 @@ This is what CircleCI will use to build and run the test cases on the repo. Note
           - build-and-test
     ```
 In the end, this is what the config.yml file should look like:
-<img width="1095" alt="Screen Shot 2022-02-25 at 1 40 18 PM" src="https://user-images.githubusercontent.com/62802533/155769979-0f343955-87b1-418a-b42d-9d02e6657ff9.png">
+<img width="1095" alt="Screen Shot 2022-02-25 at 1 40 18 PM" src="https://user-images.githubusercontent.com/62802533/190917024-9f4d7b2e-30f7-4829-b1f7-2d1507a785d5.png">
+
 
 ### Step 6: Run the build!
 First commit and push these changes to GitHub. Then, navigate to the CircleCI website to set up the project.
